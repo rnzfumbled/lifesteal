@@ -1,0 +1,25 @@
+name: LifestealLite
+version: '1.0.0'
+main: com.lifesteallite.LifestealLite
+api-version: '26.2'
+author: YourName
+description: A lightweight lifesteal SMP plugin with craftable Heart and Revive items
+
+commands:
+  heart:
+    description: Give Heart items
+    usage: /heart [player] [amount]
+    permission: lifesteallite.admin
+  revivetotem:
+    description: Give a Revive Totem
+    usage: /revivetotem [player]
+    permission: lifesteallite.admin
+  hearts:
+    description: Check or set a player's hearts
+    usage: /hearts [player] [amount]
+    permission: lifesteallite.admin
+
+permissions:
+  lifesteallite.admin:
+    description: Access to LifestealLite admin commands
+    default: op

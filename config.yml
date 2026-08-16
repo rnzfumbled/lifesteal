@@ -1,0 +1,17 @@
+# ================================
+# LifestealLite Configuration
+# ================================
+
+# Starting hearts for new players (1 heart = 2 HP).
+starting-hearts: 10
+# Minimum hearts before a player is eliminated.
+min-hearts: 0
+# Maximum hearts a player can ever reach.
+max-hearts: 20
+
+# If true, eliminated players are banned. If false, they're put into
+# spectator mode until someone uses a Revive Totem on them.
+ban-on-elimination: false
+
+# How many Heart items a Revive Totem recipe requires (also shown in-game).
+hearts-per-revive-totem: 4
